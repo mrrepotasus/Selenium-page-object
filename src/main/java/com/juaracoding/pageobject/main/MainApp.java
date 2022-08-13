@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 
 import com.juaracoding.pageobject.drivers.DriverSingleton;
 import com.juaracoding.pageobject.pages.LoginPage;
+import com.juaracoding.pageobject.pages.LoginShop;
+import com.juaracoding.pageobject.pages.RegisterShop;
 
 public class MainApp {
 
@@ -11,11 +13,19 @@ public class MainApp {
 	
 		DriverSingleton.getInstance("Chrome");
 		WebDriver driver = DriverSingleton.getDriver();
-		String url ="https://opensource-demo.orangehrmlive.com/";
+		String url ="https://shop.demoqa.com";
+//		String url ="https://opensource-demo.orangehrmlive.com/";
 		driver.get(url);
 		
-		LoginPage loginpage = new LoginPage();
-		loginpage.login("Admin","admin1234");
+//		LoginPage loginpage = new LoginPage();
+//		loginpage.login("admin", "admin1234");
+		
+		RegisterShop registershop = new RegisterShop();
+		registershop.register("admin71","admin71@gmail.com","ADMINtest12344");
+		
+		delay(3);
+		LoginShop loginshop = new LoginShop();
+		loginshop.Login("admin71@gmail.com", "ADMINtest12344");
 		
 		delay(3);
 		driver.quit();
