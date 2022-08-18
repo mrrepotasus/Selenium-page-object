@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-19T00:33:33 WIB" name="Default suite" finished-at="2022-08-19T00:34:47 WIB" duration-ms="73631">
+    <groups>
+    </groups>
+    <test started-at="2022-08-19T00:33:33 WIB" name="Default test" finished-at="2022-08-19T00:34:47 WIB" duration-ms="73631">
+      <class name="com.juaracoding.pageobject.posttest.TestPostTest18">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.pageobject.posttest.TestPostTest18@470f1802]" started-at="2022-08-19T00:33:33 WIB" name="setup" finished-at="2022-08-19T00:34:11 WIB" duration-ms="38048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageObject()[pri:0, instance:com.juaracoding.pageobject.posttest.TestPostTest18@470f1802]" started-at="2022-08-19T00:34:11 WIB" name="pageObject" finished-at="2022-08-19T00:34:11 WIB" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObject -->
+        <test-method signature="TestPembelian1()[pri:1, instance:com.juaracoding.pageobject.posttest.TestPostTest18@470f1802]" started-at="2022-08-19T00:34:11 WIB" name="TestPembelian1" finished-at="2022-08-19T00:34:25 WIB" duration-ms="13644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPembelian1 -->
+        <test-method is-config="true" signature="pageObject()[pri:0, instance:com.juaracoding.pageobject.posttest.TestPostTest18@470f1802]" started-at="2022-08-19T00:34:25 WIB" name="pageObject" finished-at="2022-08-19T00:34:25 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObject -->
+        <test-method signature="TestPembelian2()[pri:2, instance:com.juaracoding.pageobject.posttest.TestPostTest18@470f1802]" started-at="2022-08-19T00:34:25 WIB" name="TestPembelian2" finished-at="2022-08-19T00:34:34 WIB" duration-ms="8913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPembelian2 -->
+        <test-method signature="ShowCart()[pri:3, instance:com.juaracoding.pageobject.posttest.TestPostTest18@470f1802]" started-at="2022-08-19T00:34:34 WIB" name="ShowCart" finished-at="2022-08-19T00:34:36 WIB" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowCart -->
+        <test-method is-config="true" signature="pageObject()[pri:0, instance:com.juaracoding.pageobject.posttest.TestPostTest18@470f1802]" started-at="2022-08-19T00:34:34 WIB" name="pageObject" finished-at="2022-08-19T00:34:34 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.juaracoding.pageobject.posttest.TestPostTest18@470f1802]" started-at="2022-08-19T00:34:36 WIB" name="closeBrowser" finished-at="2022-08-19T00:34:47 WIB" duration-ms="10565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.juaracoding.pageobject.posttest.TestPostTest18 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
